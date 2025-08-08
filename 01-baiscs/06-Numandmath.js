@@ -33,3 +33,31 @@ console.log(hundreds.toLocaleString('en-IN'));
 /*max-value - maximum value kitna  tak ja sakti ha 
 min value - minmum value kitna tak ja sakti ha*/
 
+/*math in java script*/
+
+console.log(Math.abs(-4));
+// if Math.abs() it only changes negative value to positive but it will not change positive value to negative 
+  
+console.log(Math.round(4.4));
+//will do the round off the given value invthe bracket 
+//it also has ceil which mean if the no the is a little bit greater than four so it will help to chossse the top value 
+
+console.log(Math.floor(4.4));
+//same as ceil there is property for choosing down value it help us to chosse the down value
+  
+console.log(Math.max(4,5,6,8));//help us to find the lower valuein an array
+
+//just like this there is also a property called Math.max which help us to find the higher value in an array
+
+
+console.log((Math.random(1)*10)+1);
+//it willl Always give random value btw 0-1
+//by  multiplying it by 10 now it will give value btw 0-9
+//but by adding +1 it range will change again and now its range is 0-10
+
+//short cut
+
+
+const max = 20
+const min = 10
+console.log(Math.floor(Math.random()*(max-min+1))+min);//its is a formula 
